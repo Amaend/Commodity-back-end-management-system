@@ -1,0 +1,95 @@
+#app{
+    min-width: 1336px;
+}
+.el-table th.el-table__cell>.cell {
+    font-size: 13px ;
+    font-weight: normal ;
+}
+.el-table td.el-table__cell div {
+    box-sizing: border-box;
+    color: #909399;
+    font-size: 13px;
+}
+.el-switch.is-checked .el-switch__core {
+    border: 0;
+    background-color: pink;
+}
+.el-pager  li.active{
+    font-size: 16px;
+    transition: .3s;
+    color: #909399;
+}
+.el-pager  li{
+    font-size: 12px ;
+    transition: .3s;
+    color: #909399;
+}
+.el-pager  li:hover{
+    color: #909399
+}
+.el-switch.is-checked .el-switch__core::after {
+    left: 100%;
+    margin-left: -17px;
+    top: 2px;
+}
+/* 滚动条的样式 */
+    /* 纵向滚动条的宽度 */
+/* ::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+  } */
+  /* 滚动滑块的颜色 */
+  /* ::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 32px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+    display: none;
+  } */
+  /* ::-webkit-scrollbar-thumb:hover{
+    display: block;
+  } */
+  /* 滚动条背景颜色 */
+  /* ::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 32px;
+  } */
+ */
+
+.el-select>.el-input {
+    margin: 10px !important;
+}
+.el-button>span {
+    font-size: 12px !important;
+}
+.zk-table__cell-inner {
+    padding: 6px 12px;
+    font-size: 13px !important;
+    color: #909399 !important;
+}
+.el-icon-success,.el-icon-warning{
+    font-size: 14px;
+}
+.el-cascader .el-input .el-input__inner {
+    text-overflow: ellipsis;
+    width: 270px !important;
+}
+.el-step__title {
+    font-size: 13px;
+    line-height: 38px;
+}
+.el-checkbox-group {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.el-dialog img {
+    width: 100%;
+    height: 100%;
+}
+.el-upload-list--picture .el-upload-list__item-thumbnail {
+    vertical-align: middle;
+    width: auto;
+    height: 70px;
+}
+.quill-editor{
+    height: 250px;
+}
